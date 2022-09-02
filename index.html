@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libary</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>My Libary
+        </h1>
+    </div>
+
+    <div class="addButton">
+        <button class="add">ADD BOOKS
+        </button>
+    </div>
+
+    <div class="form_div">
+        <div class="form_head">
+            <h2>Add new Book</h2>
+            <button class="closebtn">&times;</button>
+        </div>
+        <form action="#">
+            <input type="text" id="titleInput" placeholder="title">
+            <input type="text" id="AuthorInput" placeholder="author">
+            <input type="number" id="PagesInput" placeholder="pages">
+            <div class="checkbox_div">
+                <span>Have you read it?</span>
+                <input type="checkbox" id="CheckInput" value="true" class="checkbox">
+            </div>
+            <input type="submit" value="ADD BOOK" id="submitBtn">
+        </form>
+    </div>
+
+    <div id="overlay"></div>
+    
+    <div class="container">
+
+    </div>
+</body>
+</html>
